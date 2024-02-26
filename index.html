@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>PopIt</title>
+  </head>
+  <body>
+    <header>
+        <image class="header__background" src="./images/background2.png">
+        <div class="header__container">
+        <nav class="nav__container">
+          <h4>NOT_A_BUBBLE.COM</h4>
+        <button class="mobile__button"> <svg width="32" height="24">
+          <use href="images/icons.svg#menu"></use>
+        </svg></button>
+        <ul class="nav__item-list">
+          <li class="nav__item">ABOUT</li>
+          <li class="nav__item">SALE</li>
+          <li class="nav__item">CONTACTS</li>
+        </ul>
+      </nav>
+      <div class="mobile__modal hidden">
+        <button class="mobile__button--close"><svg width="32" height="24">
+          <use href="images/icons.svg#cross"></use>
+        </svg></button>
+        <ul class="mobile__item-list">
+          <li class="mobile__item" >ABOUT</li>
+          <li class="mobile__item" >SALE</li>
+          <li class="mobile__item" >CONTACTS</li>
+        </ul>
+      </div>
+     
+      <div>
+      <h2 class="header__title">POP IT!</h2>
+      <p class="header__description">Best Antistress Toy is the Endless toy bubble wrap!</p>
+      <button class="header__button">BUY</button>
+      </div>
+      </div>
+
+    </header>
+    <section class="aboutus__container">
+        <h4 class="title__font">What is Pop it exactly?</h4>
+        <p class="aboutus__description">This is a child game, in which the process can be compared to the bursting of a bubble wrap. But unlike film, pop-it can be pressed with the same characteristic senstaions and sounds "endlessly": dozens of silicone bubbles are simply squeezed out in the other direction</p>
+    </section>
+    <section id="sale" class="sale__container">
+        <h4 class="title__font">Choose your Pop-It!</h4>
+        <ul class=sale__item-list>
+            <li class="sale__item">
+                <img class="sale__image" src="./images/square.png"/>
+                <a class="sale__description">Multicolored square</a>
+                <button class="sale__button">BUY</button>
+            </li>
+            <li class="sale__item">
+                <img class="sale__image" src="./images/amongus.png"/>
+                <a class="sale__description">Among Us, marbled</a>
+                <button class="sale__button">BUY</button>
+            </li>
+            <li class="sale__item">
+                <img class="sale__image" src="./images/round.png"/>
+                  <a class="sale__description">Multicolored round</a>
+                  <button class="sale__button">BUY</button>
+            </li>
+        </ul>
+    </section>
+    <section class="rules__container">
+        <img class="rules__background" src="./images/bg-grid2.png"/>
+        <div class="rules__container--text">
+        <h4 class="title__font">Rules of the game</h4>
+        <p class="rules__description" >Players take turns
+             and click on the bumps. It is imperative to 
+             finish the row that you started. You can press a m
+             aximum of 3 bubbles at the same time (they must be 
+             near, you cannot press several pimples at once, if 
+             they are not close to each other) The task is to make 
+             the opponent go last. Who went last - he lost!</p>
+            </div>  
+            <img class="rules__image" src="./images/photo.jpg">
+    </section>
+    <footer class="footer__container">
+        <ul class="footer__item-list">
+            <li class="footer__item">NOT_A_BUBBLE.COM</li>
+            <li class="footer__item">Payment Methods</li>
+            <li class="footer__item">Delivery</li>
+            <li class="footer__item">Wholesale</li>
+            <li class="footer__item">Contacts</li>
+        </ul>
+    </footer>
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
